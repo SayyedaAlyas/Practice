@@ -1,9 +1,13 @@
-function myLoadFunction(){
-    var element = document.getElementById('pageheading');
-    element.firstChild.nodeValue = 'New Heading';
-    var element = document.getElementById('main-paragraph');
-    p.textContent = 'Updated paragraph content on load.';
-});
-
-
-document.addEventListener('DOMContentLoaded', myLoadFunction);
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1 id="main-title">Initial Title</h1>
+    <p id="main-paragraph">This is a paragraph that will remain unchanged.</p>
+</body>
+</html>
